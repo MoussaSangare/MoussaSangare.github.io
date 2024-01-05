@@ -1,0 +1,110 @@
+body{
+    background-color: #dde;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#Moussa{
+      color: grey;
+    ;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+#Tete{
+    text-align: center;
+}
+
+a{
+    color: lightskyblue;
+      text-decoration: none;font-size: larger;
+}
+a:hover{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Selection{
+    color: lightskyblue;
+}
+
+.Photo{
+    border: 2px solid;padding: 20px;border-color: white;
+}
+/* Ceci a été écri par Moussa Sangaré */
+
+header{
+    display: flex;justify-content: space-between;color: black;
+}
+
+
+.Images{
+    width: 350px;height: 250px;display: block;margin-top: 30px;
+}
+
+#Competences{
+    display: flex;justify-content: space-around;margin-top: 20px;
+}
+
+#Savoir{
+    display: flex;justify-content: space-around;
+}
+@media (max-width:700px)  {
+        #Competences,#Photo,#Savoir,header{
+            flex-direction:column ;text-align: center;
+        }
+        .Photo{
+            display: block;margin-top: 20px;
+        }
+        body{
+            background-color: burlywood;
+        }
+        a{
+            color: white;
+        }
+        #Moussa{
+            display: block;
+        }
+}
+
+
+.In{
+    width: 40px;height: 30px;border-radius:  80%;
+}
+
+h3{
+    margin-top: 40px;margin-bottom: 30px;
+}
+
+.Savoir{
+    width: 350px;height: 250px;
+}
+
+a:hover{
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+input{
+    display: block;
+}
+
+form{
+    border-radius: 5px;
+}
+
+fieldset{     width:    50%;height: 400px;
+
+    border-radius: 5px;border-color: Grey;
+}
+
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: 2px;
+    cursor:pointer;
+  }
+
+
+footer{
+    text-align: center;margin-top: 15px;margin-top: 40px;
+}
+
+#Photo{
+    margin: 20px;
+    display: flex;justify-content: space-between;
+}
